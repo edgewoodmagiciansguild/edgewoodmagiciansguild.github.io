@@ -18,6 +18,7 @@
 	font-family: "League Script";
 	font-size: rem(80px);
 	font-weight: bold;
+	text-shadow: none;
 
     a {
         color: $text-color;
@@ -31,6 +32,10 @@
         	color: $text-color;
         }
     }
+}
+
+h1, h2 {
+	text-shadow: 0px 0px 10px transparentize(#777,0.15);
 }
 
 a {
