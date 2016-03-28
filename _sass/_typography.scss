@@ -14,7 +14,6 @@
 
 .logo {
 	color: $text-color;
-	filter: neon(1px);
 	font-family: "League Script";
 	font-size: rem(80px);
 	font-weight: bold;
@@ -22,10 +21,14 @@
 
     a {
         color: $text-color;
+        filter: neon(1px);
+		transition: filter, 0.2s, ease;
 
         &:hover {
         	color: $text-color;
+        	filter: neon(1.2px);
             text-decoration: none;
+            text-shadow: none;
         }
 
         &:visited {
@@ -36,6 +39,16 @@
 
 h1, h2 {
 	text-shadow: 0px 0px 10px transparentize(#777,0.15);
+
+	a {
+		transition: text-shadow, 0.5s, ease;
+
+		&:hover {
+			color: $link-color;
+			// text-decoration: underline;
+			text-shadow: 0px 0px 25px transparentize(#777,0.15);
+		}
+	}
 }
 
 a {
@@ -44,7 +57,7 @@ a {
 
 	&:hover {
 		color: $link-color;
-		text-decoration: underline;
+		// text-decoration: underline;
 	}
 
 	&:visited {
