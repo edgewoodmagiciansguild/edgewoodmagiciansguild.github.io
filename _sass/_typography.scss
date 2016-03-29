@@ -19,22 +19,22 @@
 	font-weight: bold;
 	text-shadow: none;
 
-    a {
-        color: $text-color;
-        filter: neon(1px);
+	a {
+		color: $text-color;
+		filter: neon(1px);
 		transition: filter, 0.2s, ease;
 
-        &:hover {
-        	color: $text-color;
-        	filter: neon(1.2px);
-            text-decoration: none;
-            text-shadow: none;
-        }
+		&:hover {
+			color: $text-color;
+			filter: neon(1.2px);
+			text-decoration: none;
+			text-shadow: none;
+		}
 
-        &:visited {
-        	color: $text-color;
-        }
-    }
+		&:visited {
+			color: $text-color;
+		}
+	}
 }
 
 h1, h2 {
@@ -44,23 +44,7 @@ h1, h2 {
 		transition: text-shadow, 0.5s, ease;
 
 		&:hover {
-			color: $link-color;
-			// text-decoration: underline;
 			text-shadow: 0px 0px 25px transparentize(#777,0.15);
 		}
-	}
-}
-
-a {
-	color: $link-color;
-	text-decoration: none;
-
-	&:hover {
-		color: $link-color;
-		// text-decoration: underline;
-	}
-
-	&:visited {
-		color: $link-color;
 	}
 }

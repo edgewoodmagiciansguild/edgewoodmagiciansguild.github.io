@@ -4,20 +4,28 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <div class="wrapper">
-        <h1 class="post-link">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
+	<ul class="post-list">
 
-        <p>
-         {{ post.content }}
-        </p>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+		{% for post in site.posts %}
+
+			<li>
+
+				<div class="wrapper">
+
+					<h1 class="post-link">
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</h1>
+
+					<p>
+						{{ post.content }}
+					</p>
+
+				</div>
+
+			</li>
+
+		{% endfor %}
+
+	</ul>
 
 </div>
