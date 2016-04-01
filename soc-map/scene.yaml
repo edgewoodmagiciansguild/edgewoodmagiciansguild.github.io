@@ -6,7 +6,7 @@ sources:
         url:  //vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-JUsa0Gc
     ghcnd:
         type: GeoJSON
-        url: http://localhost:4000/stations.geojson
+        url: stations.geojson
 
 cameras:
     perspective:
