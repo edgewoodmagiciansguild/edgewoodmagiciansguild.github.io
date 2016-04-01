@@ -266,7 +266,7 @@
 * Map Component
 */
 
-.soc-map {
+.featured {
 	height: 450px;
 	overflow: hidden;
 
@@ -278,4 +278,36 @@
 		height: 200px;
 	}
 
+	&__container {
+		bottom: 10%;
+		position: absolute;
+		right: -13px;
+		text-align: right;
+		z-index: 1;
+	}
+
+	&__headline {
+		background-color: transparentize($background-color, 0.15);
+		clear: right;
+		float: right;
+		padding: 0 rem(10px);
+		text-transform: uppercase;
+	}
+
+	&__description {
+		background-color: transparentize($background-color, 0.15);
+		clear: right;
+		float: right;
+		margin-bottom: rem(5px);
+		padding: 0 rem(10px);
+	}
+
+	.wrapper {
+		height: 100%;
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		right: 0;
+	}
 }

@@ -1,4 +1,14 @@
-<div id="map" class="soc-map"></div>
+<div id="map" class="featured">
+	<div class="wrapper">
+		<div class="absolute-padding-fix">
+			<div class="featured__container">
+				<h1 class="featured__headline post-link"> {{ include.headline }} </h1>
+				<p class="featured__description"> {{ include.description-1 }} </p>
+				<p class="featured__description"> {{ include.description-2 }} </p>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- leaflet -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
@@ -19,6 +29,6 @@
 
     layer.addTo(map);
 
-    map.setView([38.8651533,-77.0364701], 13);
+    map.setView([38.8651533,-77], 13);
 
 </script>
