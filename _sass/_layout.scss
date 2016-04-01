@@ -4,6 +4,7 @@
 .site-header {
 
 	.logo {
+		line-height: 1.1;
 		text-align: right;
 	}
 }
@@ -259,4 +260,22 @@
 			text-decoration: none;
 		}
 	}
+}
+
+/**
+* Map Component
+*/
+
+.soc-map {
+	height: 450px;
+	overflow: hidden;
+
+	@include media-query($on-laptop) {
+		height: 300px;
+	}
+
+	@include media-query($on-palm) {
+		height: 200px;
+	}
+
 }
