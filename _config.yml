@@ -18,7 +18,3 @@ github_username:  edgewoodmagiciansguild
 
 # Build settings
 markdown: kramdown
-
-#Gems
-gems:
-  - octopress-autoprefixer

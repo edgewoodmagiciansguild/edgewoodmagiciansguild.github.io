@@ -22,11 +22,19 @@
 	a {
 		color: $text-color;
 		filter: neon(1px);
+		-webkit-filter: neon(1px);
+		-moz-filter: neon(1px);
+		-o-filter: neon(1px);
+		-ms-filter: neon(1px);
 		transition: filter, 0.2s, ease;
 
 		&:hover {
 			color: $text-color;
 			filter: neon(1.2px);
+			-webkit-filter: neon(1.2px);
+			-moz-filter: neon(1.2px);
+			-o-filter: neon(1.2px);
+			-ms-filter: neon(1.2px);
 			text-decoration: none;
 			text-shadow: none;
 		}
