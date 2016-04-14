@@ -202,7 +202,7 @@
 .post-link, .post-title {
 	display: block;
 	font-weight: 400;
-	font-size: rem(50px);
+	font-size: rem(47px);
 	text-transform: uppercase;
 
 	@include media-query($on-palm) {
@@ -260,6 +260,13 @@
 			text-decoration: none;
 		}
 	}
+}
+
+.post-featured-image {
+	float: left;
+	margin-right: rem(12px);
+	margin-top: rem(16px);
+	width: 40px;
 }
 
 /**

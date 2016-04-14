@@ -14,13 +14,19 @@ layout: default
 
 				<div class="wrapper">
 
+					{% if post.featured-image  %}
+
+						<img class="post-featured-image" src="{{ site.url }}assets/{{ post.featured-image }}"></img>
+
+					{% endif %}
+
 					<h1 class="post-link">
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</h1>
 
-					<p>
-						{{ post.content }}
-					</p>
+
+					{{ post.content }}
+
 
 				</div>
 

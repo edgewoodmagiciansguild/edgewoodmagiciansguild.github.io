@@ -3,6 +3,7 @@ layout: post
 title:  "Join Us at the Expo — 29 April 2016"
 date:   2016-02-29 16:55:59 -0400
 categories: sound of change
+featured-image: soundofchange.png
 ---
 
 ![Max Screenshot]({{ site.url }}/assets/max.png)

@@ -3,6 +3,7 @@ layout: post
 title:  "In Progress — 30 March 2016"
 date:   2016-02-27 16:55:59 -0400
 categories: sound of change, updates
+featured-image: soundofchange.png
 ---
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237603952&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
