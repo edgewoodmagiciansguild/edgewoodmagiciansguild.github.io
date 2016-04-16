@@ -183,7 +183,7 @@
 		&:nth-child(odd) {
 			background: $text-color;
 
-			.post-link, p {
+			.post-link, p, li {
 				color: $background-color;
 			}
 		}
@@ -220,6 +220,13 @@
 /**
  * Posts
  */
+
+.post {
+	li {
+		margin-bottom: rem(15px);
+	}
+}
+
 .post-header {
 	margin-bottom: $spacing-unit;
 }
